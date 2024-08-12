@@ -7,7 +7,7 @@
     overflow: hidden;
     /*ボタンの形状*/
     text-decoration: none;
-    display: inline-block; /* 横並びから縦並びに変更 */
+    display: block; /* 横並びから縦並びに変更 */
     border: 1px solid #555;/* ボーダーの色と太さ */
     padding: 10px 30px;
     text-align: center;
