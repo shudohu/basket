@@ -7,13 +7,15 @@
     overflow: hidden;
     /*ボタンの形状*/
     text-decoration: none;
-    display:block;  /* 横並びから縦並びに変更 */
+    display: inline-block; /* 横並びから縦並びに変更 */
     border: 1px solid #555;/* ボーダーの色と太さ */
     padding: 10px 30px;
     text-align: center;
     outline: none;
     /*アニメーションの指定*/   
     transition: ease .2s;
+    margin: 10px auto; /* ボタン間のスペースを追加 */
+    width: auto; /* 幅を自動に設定 */
 }
 
 /*ボタン内spanの形状*/
@@ -62,3 +64,4 @@ body{
 p{
     margin: 0 0 10px 0;
 }
+
