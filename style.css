@@ -4,8 +4,8 @@ body {
 }
 h1 {
   color: #333;
-}
 
+	
 /*== ボタン共通設定 */
 .btn{
     /*アニメーションの起点とするためrelativeを指定*/
@@ -55,4 +55,6 @@ h1 {
 .bgleft:hover:before{
 	transform-origin:left top;
 	transform:scale(1, 1);
+}
+
 }
