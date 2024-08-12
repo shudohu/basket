@@ -1,8 +1,44 @@
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+/*== ボタン共通設定 */
+.btn{
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #555;
+    padding: 10px 30px;
+    text-align: center;
+    outline: none;
+    transition: ease .1s; /* アニメーションの速度を速く */
 }
-h1 {
-  color: #333;
 
+/*ボタン内spanの形状*/
+.btn span {
+    position: relative;
+    z-index: 3;
+    color:#333;
+}
+
+.btn:hover span{
+    color:#fff;
+}
+
+/*== 背景が流れる（左から右） */
+.bgleft:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background:#007BFF; /* 背景色を青に変更 */
+    width: 100%;
+    height: 100%;
+    transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s; /* アニメーションの速度を速く */
+    transform: scale(0, 1);
+    transform-origin: right top;
+}
+
+/*hoverした際の形状*/
+.bgleft:hover:before{
+    transform-origin:left top;
+    transform:scale(1, 1);
 }
