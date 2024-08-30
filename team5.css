@@ -1,7 +1,7 @@
 CSS
 .box {
-box-shadow: 0px 0px 15px 0px rgba(98,98,98,0.8); /*影の指定*/
-padding:1000px;
+background:#c4d9ff; /*背景色の指定*/
+padding:10px;
 }
 .box p {
 margin:0;
