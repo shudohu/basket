@@ -12,7 +12,7 @@ ul li {
   text-shadow: 1px 1px 1px whitesmoke;/*文字を立体的に*/
   color: black;
   width: 100px;
-  height:100px;
+  height:20px;
 }
 
 ul li:before { 
